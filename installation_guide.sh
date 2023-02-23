@@ -89,21 +89,21 @@ sudo docker-compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-e
 xdg-open "http://127.0.0.1:9392" 2>/dev/null >/dev/null &
  
 
-To check running containers:
+#To check running containers:
 
 
-sudo docker ps
-sudo docker ps -a #for all containers
+#sudo docker ps
+#sudo docker ps -a #for all containers
  
 
-To get bash on the running containers:
+#To get bash on the running containers:
 
 
-sudo docker exec -it <container_name/container_id> /bin/bash #gvmd container for our immediate purpose
+#sudo docker exec -it <container_name/container_id> /bin/bash #gvmd container for our immediate purpose
  
 
-Persistent data for containers:
+#Persistent data for containers:
 
 
-/var/lib/docker/volumes/greenbone-community-edition_data_object_vol/_data/
+#/var/lib/docker/volumes/greenbone-community-edition_gvmd_data_vol/
  
